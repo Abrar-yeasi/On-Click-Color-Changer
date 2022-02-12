@@ -7,16 +7,18 @@ body{
     background-color: #000;
 }
 .text{
+    font-size: 50px;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 200px;
     color: rgb(55, 255, 55);
 }
 .btn {
+    font-size: 30px;
     display: block;
     margin: 0 auto;
     margin-top: 7px;
     padding: 7px 15px;
-    border-radius: 20px;
+    border-radius: 40px;
     border: none;
     background-color: rgb(55, 255, 55);
     color: #000;
