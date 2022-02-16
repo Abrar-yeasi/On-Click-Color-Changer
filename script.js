@@ -8,10 +8,12 @@ function main() {
     // Collecting necessary referances.
     const root = document.getElementById('root');
     const btn = document.getElementById("btn");
+    const txt = document.getElementById('text');
 
     btn.addEventListener('click', function () {
         const bgColor = generateRGBColor();
         root.style.backgroundColor = bgColor;
+        txt.style.color = '#fff';
     })
 }
 // Random color generator.
